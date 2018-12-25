@@ -1,7 +1,13 @@
 1) What are three interesting facts about you?
-
+  I've never ever coded before.
+  I've lived in 7 different cities.
+  I want to live in Brooklyn, NY.
 
 2) What's your favorite song and movie?
-
+  Favorite song: Anything by Lauv and Ed Sheeran
+  Favorite movie: Now You See Me
 
 3) Why do you want to learn how to program?
+  I think programming is a useful skill to have, almost every field
+  requires some knowledge of programming now a days.
+  
