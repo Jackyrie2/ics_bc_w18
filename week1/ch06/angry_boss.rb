@@ -4,3 +4,6 @@
 
 
 ### Your Code Here ###
+puts 'YO CLOWN, WHAT DO YOU WANT?'
+response = gets.chomp
+puts 'WHAT? ' + response.upcase + '? YOU\'RE FIRED!!'\
