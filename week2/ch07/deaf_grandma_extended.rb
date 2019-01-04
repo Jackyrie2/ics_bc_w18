@@ -21,6 +21,6 @@ while true
   else puts 'HUH?! SPEAK UP, SONNY!'
   end
 
-end
+end 
 
 puts 'OK SONNY, TALK AGAIN SOON'
