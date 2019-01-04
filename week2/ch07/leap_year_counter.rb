@@ -10,12 +10,10 @@ ending = gets.chomp
 starting = starting.to_i
 
 while starting <= ending.to_i
-
   if (starting % 4 == 0 && starting % 100 != 0) || (starting % 400 == 0)
     puts starting
     starting = starting + 1
   else
     starting = starting + 1
   end
-
 end
