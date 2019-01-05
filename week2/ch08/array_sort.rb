@@ -4,14 +4,18 @@ puts 'Please enter the desired words (one per line), and press enter when finish
 
 # Fetch the words, then output the sorted list
 input = gets.chomp
-word_list.push input
+
+while input == ''
+  input = gets.chomp
+  if input != ''
+    word_list.push input
+  end
+end
 
 while input != ''
-
   input = gets.chomp
   input = input.downcase
   word_list.push input
-
 end
 
 word_list.pop
