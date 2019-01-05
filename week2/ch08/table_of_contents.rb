@@ -4,11 +4,12 @@ line_width = 72 # Set it to a default length you'll use throughout
 title = "Table of Contents"
 
 # Depending on your solution, you may use more than one array, but here's one to get you started
-chapters = [1,2,3,4,5,6,7,8,9]
-chapter_name = ['Getting Started','Numbers','Letters','Variables and Assignment','Mixing It Up','More About Methods','Flow Control','Arrays and Iterators','Writing Your Own Methods']
-page = [1,9,13,17,21,27,37,51,57]
+chapter = [['Getting Started','  1'],['Numbers','  9'],['Letters',' 13'],['Variables and Assignment',' 17'],['Mixing It Up',' 21'],['More About Methods',' 27'],['Flow Control',' 37'],['Arrays and Iterators',' 51'],['Writing Your Own Methods',' 57']]
 ### Your Code Here ###
-puts title.center
-chapters.each do |chp|
-  puts 'Chapter' + chp + ':'
-end 
+number = 1
+puts title.center(line_width)
+puts ''
+chapter.each do |chp|
+  puts (('Chapter ' + number.to_s + ':  ' + chp[0]).ljust(line_width/2)) + (('page' + chp[1]).rjust(line_width/2))
+  number = 1 + number
+end
